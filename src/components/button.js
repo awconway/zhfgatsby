@@ -17,22 +17,4 @@ export const Button = ({ Component = 'button', children, onClick, variant, small
     )
 }
 
-export const CompleteButton = ({ completed, toggleComplete, small = true }) => {
-    const buttonClassNames = classNames({
-        [classes.completeInactive]: !completed,
-        [classes.completeActive]: completed,
-    })
-    return (
-        <Button small={small} onClick={toggleComplete} className={buttonClassNames}>
-            {!completed ? (
-                'Mark as completed'
-            ) : (
-                <>
-                    <IconCheck width={14} height={14} className={classes.completeIcon} />{' '}
-                    <span className={classes.completeLabel}>Completed</span>{' '}
-                    <span className={classes.completeLabelHover}>Remove from completed</span>
-                </>
-            )}
-        </Button>
-    )
-}
+

@@ -4,10 +4,9 @@
     "slogan": "Accuracy of zero-heat-flux temperature monitoring: A systematic review and meta-analysis",
     "description": "",
     "bio": "Dr. Aaron Conway holds the RBC Chair in Cardiovascular Nursing Research at the Peter Munk Cardiac Centre and is an Assistant Professor in the Lawrence S. Bloomberg Faculty of Nursing at the University of Toronto.",
-    "siteUrl": "https://zhf-review.netlify.com",
+    "siteUrl": "https://zhf-info.netlify.com",
     "twitter": "aw_conway",
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
-    "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
     "showProfileImage": true,
     "footerLinks": [
         { "text": "Website", "url": "https://www.aaronconway.info" },

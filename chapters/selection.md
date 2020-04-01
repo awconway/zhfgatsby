@@ -10,6 +10,6 @@ id: 2
 
 <exercise id="1" title="PRISMA flow diagram">
 
-<img src="/gofer_core_low.png" />
+<img src="/fig-one.png" />
 
 </exercise>
