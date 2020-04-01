@@ -5,6 +5,7 @@
     "version": "0.0.1",
     "author": "Aaron Conway <aaronconwayphd@gmail.com>",
     "dependencies": {
+        "@illinois/react-use-local-storage": "^1.1.0",
         "autoprefixer": "^9.6.1",
         "babel-plugin-styled-components": "^1.10.7",
         "classnames": "^2.2.6",
