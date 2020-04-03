@@ -15,7 +15,7 @@ const Layout = ({ isHome, title, description, children }) => {
         <StaticQuery
             query={graphql`
                 {
-                    file(relativePath: {eq: "circle-cropped.png"}) {
+                    profilepic: file(relativePath: {eq: "circle-cropped.png"}) {
                         childImageSharp {
                           fixed(width: 125, height: 125){
                             ...GatsbyImageSharpFixed
@@ -79,7 +79,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                     <section className={classes.footerSection}>
                                         <H3>About me</H3>
                                         {meta.showProfileImage && (
-                                            <Img fixed={data.file.childImageSharp.fixed}
+                                            <Img fixed={data.profilepic.childImageSharp.fixed}
                                             className={classes.profile}
                                             />
                                         )}
