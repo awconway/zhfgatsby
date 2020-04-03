@@ -5,6 +5,7 @@ import SEO from './seo'
 import { Link } from './link'
 import { H3 } from './typography'
 import Logo from '../../static/logo.svg'
+import Img from "gatsby-image"
 
 import '../styles/index.sass'
 import classes from '../styles/layout.module.sass'
@@ -14,6 +15,13 @@ const Layout = ({ isHome, title, description, children }) => {
         <StaticQuery
             query={graphql`
                 {
+                    file(relativePath: {eq: "circle-cropped.png"}) {
+                        childImageSharp {
+                          fixed(width: 125, height: 125){
+                            ...GatsbyImageSharpFixed
+                        }
+                        }
+                      }
                     site {
                         siteMetadata {
                             title
@@ -71,10 +79,8 @@ const Layout = ({ isHome, title, description, children }) => {
                                     <section className={classes.footerSection}>
                                         <H3>About me</H3>
                                         {meta.showProfileImage && (
-                                            <img
-                                                src="/circle-cropped.png"
-                                                alt="Aaron Conway"
-                                                className={classes.profile}
+                                            <Img fixed={data.file.childImageSharp.fixed}
+                                            className={classes.profile}
                                             />
                                         )}
                                         <p>{meta.bio}</p>
