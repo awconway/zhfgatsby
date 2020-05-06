@@ -12,11 +12,15 @@ id: 4
 
 <img src="/gofer/gofer_core.png" />
 
+<qu>The study by Boisson et al. (2018) split the analyses in their study into times during surgery where there were 'rapid' core temperature changes and 'slow' core temperature changes. As such, the total number of participants reported here counts the number of participants in the Boisson et al. (2018) study twice.</qu>
+
 </exercise>
 
 <exercise id="2" title="Sensitivity analysis including only studies judged as low risk of bias" type="slides">
 
 <img src="/gofer/gofer_core_low.png" />
+
+<qu>The study by Boisson et al. (2018) split the analyses in their study into times during surgery where there were 'rapid' core temperature changes and 'slow' core temperature changes. As such, the total number of participants reported here counts the number of participants in the Boisson et al. (2018) study twice.</qu>
 
 </exercise>
 
@@ -36,16 +40,12 @@ id: 4
 
 <img src="/gofer/gofer_OT.png" />
 
+<qu>The study by Boisson et al. (2018) split the analyses in their study into times during surgery where there were 'rapid' core temperature changes and 'slow' core temperature changes. As such, the total number of participants reported here counts the number of participants in the Boisson et al. (2018) study twice.</qu>
+
 </exercise>
 
 <exercise id="6" title="Studies that used nasopharyngeal temperature as the comparator" type="slides">
 
 <img src="/gofer/gofer_NPA.png" />
-
-</exercise>
-
-<exercise id="7" title="Studies that used sublingual temperature as the comparator" type="slides">
-
-<img src="/gofer/gofer_SL.png" />
 
 </exercise>
