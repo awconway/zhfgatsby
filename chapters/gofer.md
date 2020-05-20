@@ -30,13 +30,19 @@ id: 4
 
 </exercise>
 
-<exercise id="4" title="Studies conducted with ICU patients that used core temperature as the comparator" type="slides">
+<exercise id="4" title="Sensitivity analysis excluding studies that used naso/oropharungeal temperature as the comparator" type="slides">
+
+<img src="/gofer/gofer_core_no_npa.png" />
+
+</exercise>
+
+<exercise id="5" title="Studies conducted with ICU patients that used core temperature as the comparator" type="slides">
 
 <img src="/gofer/gofer_ICU.png" />
 
 </exercise>
 
-<exercise id="5" title="Studies conducted with patients undergoing surgery that used core temperature as the comparator" type="slides">
+<exercise id="6" title="Studies conducted with patients undergoing surgery that used core temperature as the comparator" type="slides">
 
 <img src="/gofer/gofer_OT.png" />
 
@@ -44,7 +50,7 @@ id: 4
 
 </exercise>
 
-<exercise id="6" title="Studies that used nasopharyngeal temperature as the comparator" type="slides">
+<exercise id="7" title="Studies that used nasopharyngeal temperature as the comparator" type="slides">
 
 <img src="/gofer/gofer_NPA.png" />
 
