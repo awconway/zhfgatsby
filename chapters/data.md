@@ -918,7 +918,7 @@ id: 5
 
 </exercise>
 
-<exercise id="4" title="Sensitivity analysis excluding studies that used naso/oropharungeal temperature as the comparator" type="slides">
+<exercise id="4" title="Sensitivity analysis excluding studies that used naso/oropharyngeal temperature as the comparator" type="slides">
 <table style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif; display: table; border-collapse: collapse; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8;">
   
   <thead style="border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">

@@ -30,7 +30,7 @@ id: 4
 
 </exercise>
 
-<exercise id="4" title="Sensitivity analysis excluding studies that used naso/oropharungeal temperature as the comparator" type="slides">
+<exercise id="4" title="Sensitivity analysis excluding studies that used naso/oropharyngeal temperature as the comparator" type="slides">
 
 <img src="/gofer/gofer_core_no_npa.png" />
 
